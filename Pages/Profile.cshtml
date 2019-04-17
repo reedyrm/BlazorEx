@@ -1,0 +1,60 @@
+﻿@* This tells our router that this page can be accessed via /profile *@
+@page "/profile"
+
+@* Injects an HttpClient which allows us to make remote calls to pull data dynamically *@
+@inject HttpClient Http
+
+
+<h1>Profile</h1>
+
+<p>Pulling data from another API.</p>
+
+@* Checks to see if currentProfile is null (no data returned yet) which shows a loading message *@
+@if (currentProfile == null)
+{
+
+    <div>Loading...</div>
+}
+else
+{
+    <div>
+        <span>First Name:</span>
+        <span>@currentProfile.Name</span>
+    </div>
+    <div>
+        <span>Last Name:</span>
+        <span>@currentProfile.Surname</span>
+    </div>
+    <div>
+        <span>Region:</span>
+        <span>@currentProfile.Region</span>
+    </div>
+}
+
+
+
+
+
+@functions {
+    //holds data retrieved from the GET call
+    ProfileData currentProfile;
+
+    protected override async Task OnInitAsync()
+    {
+        currentProfile = await Http.GetJsonAsync<ProfileData>("https://uinames.com/api/?&amount=1&ext");
+    }
+
+    // Declares class called ProfileData that defines what data will be parsed from response
+    class ProfileData
+    {
+
+        public string Name { get; set; }
+
+        public string Surname { get; set; }
+
+        public string Gender { get; set; }
+
+        public string Region { get; set; }
+
+    }
+}
