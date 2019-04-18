@@ -151,7 +151,7 @@
   },
   "libraries": {
     "Microsoft.AspNetCore.Blazor/0.9.0-preview3-19154-02": {
-      "sha512": "aunUszgvoVz9fQfo6SgagcodNGoxJiRcwHoq9nvM6C8bTUucYd3jx1c8htET9e5n/TAr4wfUpRwhD1Vq1z3N6Q==",
+      "sha512": "xMMSTDALnV3tS4s5mZsxqSCgV6XnuHkiSAqF1p2Bfx2hSHV8K/YEi0v09zP+O96V1UDNCcInUEbRKSF2TNcC5g==",
       "type": "package",
       "path": "microsoft.aspnetcore.blazor/0.9.0-preview3-19154-02",
       "files": [
@@ -164,9 +164,10 @@
       ]
     },
     "Microsoft.AspNetCore.Blazor.Build/0.9.0-preview3-19154-02": {
-      "sha512": "H/PDq5AyuYz0z5rZTafijh3ShgcYekv+6RxpVldqIF96r4dobvreZZIWkQMfIT3lcHi6unZ/RgeTXFlLBKiDBg==",
+      "sha512": "+WtyAQrq2L75YxOeOla2GGuSmBeUBvQEiG6b6rkrFXhuc0MiD4MYphAeVC7VFxDSrNXjHLlAc8RnFhbYhj5kOA==",
       "type": "package",
       "path": "microsoft.aspnetcore.blazor.build/0.9.0-preview3-19154-02",
+      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -204,9 +205,10 @@
       ]
     },
     "Microsoft.AspNetCore.Blazor.Mono/0.8.0-preview-20190204.1": {
-      "sha512": "TYiNdflvHrdaSaLcmzYiljWufbxUZgO/dJF9nGlb7ec3+82yI7EMZw0fCpe72GypXRcgXR59Gn8wEO3IxbJBjA==",
+      "sha512": "szF4lJT2282qBPCjTUJ6dxIKw5b5VNDb+aUKlVxLn4x4N5kDs3xDq9cnns2LdP96shix9q7WC7a9+GrNaK6p0g==",
       "type": "package",
       "path": "microsoft.aspnetcore.blazor.mono/0.8.0-preview-20190204.1",
+      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -409,7 +411,7 @@
       ]
     },
     "Microsoft.AspNetCore.Components/3.0.0-preview3-19153-02": {
-      "sha512": "PNCiiAScwhnAuQmvRxgwY4p7FD3HAjyrPEKyu+FaLF6LiWYUnAjsaF9DHYCjU1C5qb41AWgG0FIyXTiJd0WMTw==",
+      "sha512": "VRey2EYvwmuOCleloBiNhuP7ezbsgTdnhl1NCkNmTuHVh2IvSknNilDtMpqf0ukpr3THSti4+n6Y8OhHOZufwQ==",
       "type": "package",
       "path": "microsoft.aspnetcore.components/3.0.0-preview3-19153-02",
       "files": [
@@ -423,7 +425,7 @@
       ]
     },
     "Microsoft.AspNetCore.Components.Analyzers/3.0.0-preview3-19153-02": {
-      "sha512": "2KrPhMkW4L6mJsLJXwhcv79Hw/6CGIrIMO0+8sbpQEntDPcywfaXWxqXbWWEL2voAu4eMBx0IP9PfjBqIlBp/g==",
+      "sha512": "QEjpeLt0X5ufKgoFvBWTm/t338yd+ttx6LDHZ9RFeZlYwG+SA5biOyETgND7oaZSDJWKsly2yLpZsFPLBFBsug==",
       "type": "package",
       "path": "microsoft.aspnetcore.components.analyzers/3.0.0-preview3-19153-02",
       "files": [
@@ -436,7 +438,7 @@
       ]
     },
     "Microsoft.AspNetCore.Components.Browser/3.0.0-preview3-19153-02": {
-      "sha512": "WU6A9/3uvXuDtVYt1bB80Sbfcul2oCp68WVSUxf9qHlNq4wlRDpPjHI+s4ZHJB8YQJbW9KfWEdDs381hSE5imA==",
+      "sha512": "Kg0ge+hLoNz7aRI/okN9ehDmk34jfW3csUL4/JBMpOinb9ZH212009Fr2jshqPyu32YpMiqqklWv77L+ZVEXOg==",
       "type": "package",
       "path": "microsoft.aspnetcore.components.browser/3.0.0-preview3-19153-02",
       "files": [
@@ -450,7 +452,7 @@
       ]
     },
     "Microsoft.AspNetCore.Components.Build/3.0.0-preview3-19153-02": {
-      "sha512": "QV0KlEi+trQLc9uJ9O+KOxkx+e18a35JhcmsBpz8pwtRunxXyDAC2Ml/MT4Oo1yChiKI4uBWVCbz7JZzcLAQCA==",
+      "sha512": "KPLM5hIIZhr4vgUb9tqi/LviGa8nDCnJ6CS99polFqr7geVlE5ntsNqznoNsargC7DDYA2fDamJ/7YmEHHhq0w==",
       "type": "package",
       "path": "microsoft.aspnetcore.components.build/3.0.0-preview3-19153-02",
       "files": [
@@ -467,7 +469,7 @@
       ]
     },
     "Microsoft.Extensions.DependencyInjection/3.0.0-preview3.19153.1": {
-      "sha512": "1j/yGtm9XhOC1UnEcdLQDt0DgaBvrPxyaQa7pN6k/XTq5ABbefmUeO93R5Wni5+mJDHPMrTtg76RaCh57tJVcw==",
+      "sha512": "DXQ9evKR74d+HSLpPVuvtDe4d+Q+JyY2m/NSRbN7eJP6Lun7yBubYoBMYQBp2IKlmiLecBxaar6LfoOBLZBTmw==",
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection/3.0.0-preview3.19153.1",
       "files": [
@@ -484,7 +486,7 @@
       ]
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0-preview3.19153.1": {
-      "sha512": "ejNOvE30tkp2nnKK82KVOvN7qalzrf5QZMEixuJ6f6BiQ5LqpOIbwSyCIMS1iI5rwgq+efbZfnehUF703SIzZQ==",
+      "sha512": "ZBMloIoZwQr+xbkkSobDqpgsr/njMd1r3jqKdpnXEcl0436abevrsQlfijYBu5qSUf6OfcKTluSzO75iCAhkeQ==",
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.0-preview3.19153.1",
       "files": [
@@ -497,7 +499,7 @@
       ]
     },
     "Microsoft.JSInterop/3.0.0-preview3.19153.1": {
-      "sha512": "iCOD0CKaazZSwQU9G6uAw5PnKf4ZhsGaeSLS4JLvpaBVDA2aObV7O0Z5Ly8dPQkVYiBeiuzIx0+YBH7GngytCw==",
+      "sha512": "S6zzqSd1cZ2h0NRx0dABHeA8oTtkXDATF8N41O9lMnN2xfNRt9kmDhBuels5DlGQYsKW9IsJighEexnnNr8ptw==",
       "type": "package",
       "path": "microsoft.jsinterop/3.0.0-preview3.19153.1",
       "files": [
@@ -510,7 +512,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -525,7 +527,7 @@
       ]
     },
     "Mono.WebAssembly.Interop/3.0.0-preview3.19153.1": {
-      "sha512": "C5bpH/jIhAvLr5IR+HeGywtqxHcyrWMeD6+y9vjJensJOAX9X0im+8BolBzNPHYZ2Uu+A+2+PhwxtxxjOux52Q==",
+      "sha512": "jqREH2xK/TDtja+Rm0WhSJIdtoh1uuCu2WloHKq2MN9UFTdih4KY+wCK9/Nm4pA7z+8PPBwc43RSyyoUSlHSAQ==",
       "type": "package",
       "path": "mono.webassembly.interop/3.0.0-preview3.19153.1",
       "files": [
@@ -666,7 +668,7 @@
       ]
     },
     "System.ComponentModel.Annotations/4.6.0-preview3.19128.7": {
-      "sha512": "a6NzJ9sb8VoQwaYFT17gsGxRraQgSDcSkc6z/8UHVyY5rcg4W9oI41JqpjIrGKy3DZCeoEzyK8RcrjjD0kQV7g==",
+      "sha512": "xvIg6dDkmz4HGE1L/HY71qpMt4jeiG9xSfAZqwrNuVJTQ+azwSDhAjy0o13VrngAcQ3hKRQKqjTnBgYymu3i4Q==",
       "type": "package",
       "path": "system.componentmodel.annotations/4.6.0-preview3.19128.7",
       "files": [
@@ -781,7 +783,7 @@
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/gianni/.config/NuGet/NuGet.Config"
+        "/Users/gianni/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
