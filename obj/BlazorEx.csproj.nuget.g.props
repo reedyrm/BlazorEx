@@ -7,7 +7,7 @@
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/gianni/.nuget/packages/</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/gianni/.nuget/packages/;/usr/local/share/dotnet/sdk/NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.0.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.8.2</NuGetToolVersion>
   </PropertyGroup>
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
@@ -17,8 +17,4 @@
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.blazor.mono/0.8.0-preview-20190204.1/build/netstandard1.0/Microsoft.AspNetCore.Blazor.Mono.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.blazor.mono/0.8.0-preview-20190204.1/build/netstandard1.0/Microsoft.AspNetCore.Blazor.Mono.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.blazor.build/0.9.0-preview3-19154-02/build/netstandard1.0/Microsoft.AspNetCore.Blazor.Build.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.blazor.build/0.9.0-preview3-19154-02/build/netstandard1.0/Microsoft.AspNetCore.Blazor.Build.props')" />
   </ImportGroup>
-  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_AspNetCore_Blazor_Mono Condition=" '$(PkgMicrosoft_AspNetCore_Blazor_Mono)' == '' ">/Users/gianni/.nuget/packages/microsoft.aspnetcore.blazor.mono/0.8.0-preview-20190204.1</PkgMicrosoft_AspNetCore_Blazor_Mono>
-    <PkgMicrosoft_AspNetCore_Blazor_Build Condition=" '$(PkgMicrosoft_AspNetCore_Blazor_Build)' == '' ">/Users/gianni/.nuget/packages/microsoft.aspnetcore.blazor.build/0.9.0-preview3-19154-02</PkgMicrosoft_AspNetCore_Blazor_Build>
-  </PropertyGroup>
 </Project>

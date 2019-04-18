@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{42D2B3D4-8A7F-44A9-84A6-BCFEB27424C8}|Default">
   <MonoDevelop.Ide.ItemProperties.BlazorEx PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Profile.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="docs/404.html">
     <Files>
       <File FileName="App.cshtml" Line="2" Column="1" />
       <File FileName="Program.cs" Line="16" Column="2" />
@@ -12,21 +12,18 @@
       <File FileName="Shared/MainLayout.cshtml" Line="1" Column="1" />
       <File FileName="Pages/Counter.cshtml" Line="1" Column="1" />
       <File FileName="Pages/_ViewImports.cshtml" Line="2" Column="1" />
-      <File FileName="Pages/Profile.cshtml" Line="35" Column="18" />
+      <File FileName="Pages/Profile.cshtml" Line="1" Column="1" />
       <File FileName="Pages/FetchData.cshtml" Line="4" Column="1" />
       <File FileName="wwwroot/sample-data/weather.json" Line="1" Column="1" />
+      <File FileName="docs/404.html" Line="25" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BlazorEx" expanded="True">
             <Node name="BlazorEx" expanded="True">
-              <Node name="Pages" expanded="True">
-                <Node name="Profile.cshtml" selected="True" />
-              </Node>
-              <Node name="Shared" expanded="True" />
-              <Node name="wwwroot" expanded="True">
-                <Node name="sample-data" expanded="True" />
+              <Node name="docs" expanded="True">
+                <Node name="404.html" selected="True" />
               </Node>
             </Node>
           </Node>
